@@ -22,28 +22,28 @@ function App() {
 
       <main className="flex-1 bg-blue-500"></main>
 
-      <footer className=" bg-[#131118] text-[#8a898c] font-semibold text-lg">
+      <footer className=" bg-[#131118] text-primary-100 font-semibold text-lg">
         <div className="container max-w-screen-2xl mx-auto flex justify-between px-8 py-12">
           <div className="basis-80">
-            <h1 className="text-4xl font-semibold text-white mb-8">
+            <h1 className="text-4xl font-semibold text-white-500 mb-8">
               tekstilim
             </h1>
 
             <ul className="gap-4 flex flex-col">
               <li className="flex items-center">
-                <span className="text-2xl text-neutral-500 mr-4">
+                <span className="text-2xl mr-4">
                   <i className="fa-solid fa-phone-volume"></i>
                 </span>
                 <span>(704) 555-0127</span>
               </li>
               <li className="flex items-center">
-                <span className="text-2xl text-neutral-500 mr-4">
+                <span className="text-2xl mr-4">
                   <i className="fa-regular fa-envelope"></i>
                 </span>
                 <span>krist@example.com</span>
               </li>
               <li className="flex items-center">
-                <span className="text-2xl text-neutral-500 mr-4">
+                <span className="text-2xl mr-4">
                   <i className="fa-solid fa-location-dot"></i>
                 </span>
                 <span>3891 Ranchview Dr. Richardson, California 62639</span>
@@ -52,7 +52,7 @@ function App() {
           </div>
           {/* information list */}
           <div>
-            <h3 className="text-white mb-4">Information</h3>
+            <h3 className="text-white-500 mb-4">Information</h3>
             <ul className="flex gap-4 flex-col">
               {informationList.map((item) => (
                 <li>
@@ -64,7 +64,7 @@ function App() {
 
           {/* service list */}
           <div>
-            <h3 className="text-white mb-4">Service</h3>
+            <h3 className="text-white-500 mb-4">Service</h3>
             <ul className="flex gap-4 flex-col">
               {serviceList.map((item) => (
                 <li>
@@ -76,7 +76,7 @@ function App() {
 
           {/* subscriction */}
           <div className="basis-96">
-            <h3 className="text-white mb-4">Subscribe </h3>
+            <h3 className="text-white-500 mb-4">Subscribe </h3>
 
             <p className="mb-4">
               Enter your email below to be the first to know about new
@@ -93,8 +93,8 @@ function App() {
         </div>
 
         <div className="max-w-screen-2xl mx-auto">
-          <div className="py-6 px-8 border-t border-neutral-400/35">
-            <p className="text-[#8a898c]">
+          <div className="py-6 px-8 border-t border-primary-80">
+            <p className="text-primary-100">
               © 2023 Tekstilim. All Rights Reserved
             </p>
           </div>

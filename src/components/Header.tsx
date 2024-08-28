@@ -17,7 +17,7 @@ function Header() {
       <nav>
         <ul className="flex items-center gap-4">
           {navList.map((item) => (
-            <li className="text-neutral-700  font-semibold">
+            <li className="text-dark-90  font-semibold">
               <a href={item.link}>{item.title}</a>
             </li>
           ))}
