@@ -1,3 +1,4 @@
+import BestSellers from "./components/BestSellers";
 import Footer from "./components/Footer";
 // import Header from "./components/Header";
 import HomeCategories from "./components/HomeCategories";
@@ -8,9 +9,9 @@ function App() {
       {/* <Header /> */}
 
       <main className="flex-1 bg-gray-5">
-        {/* hero */}
-
         <HomeCategories />
+
+        <BestSellers />
       </main>
 
       <Footer />
