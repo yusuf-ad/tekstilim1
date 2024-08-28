@@ -26,7 +26,7 @@ function Header() {
       {/* button */}
 
       <div className="flex gap-12 items-center">
-        <div className="flex gap-8">
+        {/* <div className="flex gap-8">
           <button className="text-2xl text-primary-300">
             <i className="fa-solid fa-magnifying-glass"></i>
           </button>
@@ -36,7 +36,7 @@ function Header() {
           <button className="text-2xl text-primary-300">
             <i className="fa-solid fa-bag-shopping"></i>
           </button>
-        </div>
+        </div> */}
 
         <button className="px-8 py-3 bg-primary-800 text-white-500 rounded-xl ">
           Login
