@@ -21,8 +21,8 @@ const serviceList = [
 function Footer() {
   return (
     <footer className="bg-primary-800 text-lg font-semibold text-primary-100">
-      <div className="container mx-auto flex max-w-screen-2xl flex-wrap justify-between gap-12 px-8 py-12 xl:flex-nowrap">
-        <div className="basis-1/2 xl:basis-80">
+      <div className="container mx-auto flex max-w-screen-2xl flex-col justify-between gap-12 px-8 py-12 md:flex-row">
+        <div className="md:basis-72">
           <h1 className="mb-8 text-4xl font-semibold text-white-500">
             tekstilim
           </h1>
@@ -30,13 +30,13 @@ function Footer() {
           <Contact />
         </div>
 
-        <div className="flex justify-between xl:basis-1/4">
+        <div className="flex basis-1/4 justify-between gap-8">
           <FooterMenu title="Bilgi" list={informationList} />
 
           <FooterMenu title="Servisler" list={serviceList} />
         </div>
 
-        <div className="basis-96">
+        <div className="md:basis-96">
           <SubscriptionField />
         </div>
       </div>
