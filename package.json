@@ -1,5 +1,5 @@
 {
-  "homepage": "https://yusuf-ad.github.io/cv/",
+  "homepage": "https://yusuf-ad.github.io/cv/tekstilim1",
   "name": "tekstilim",
   "private": true,
   "version": "0.0.0",
@@ -8,7 +8,9 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",
