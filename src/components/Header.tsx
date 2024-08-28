@@ -17,7 +17,7 @@ function Header() {
       <nav>
         <ul className="flex items-center gap-4">
           {navList.map((item) => (
-            <li className="text-dark-90  font-semibold">
+            <li className="text-primary-80  font-semibold">
               <a href={item.link}>{item.title}</a>
             </li>
           ))}
@@ -27,18 +27,18 @@ function Header() {
 
       <div className="flex gap-12 items-center">
         <div className="flex gap-8">
-          <button className="text-2xl text-neutral-500">
+          <button className="text-2xl text-primary-300">
             <i className="fa-solid fa-magnifying-glass"></i>
           </button>
-          <button className="text-2xl text-neutral-500">
+          <button className="text-2xl text-primary-300">
             <i className="fa-regular fa-heart"></i>
           </button>
-          <button className="text-2xl text-neutral-500">
+          <button className="text-2xl text-primary-300">
             <i className="fa-solid fa-bag-shopping"></i>
           </button>
         </div>
 
-        <button className="px-8 py-3 bg-black text-white rounded-lg ">
+        <button className="px-8 py-3 bg-primary-800 text-white-500 rounded-xl ">
           Login
         </button>
       </div>
