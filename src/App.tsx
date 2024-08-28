@@ -24,7 +24,7 @@ function App() {
 
       <footer className=" bg-[#131118] text-[#8a898c] font-semibold text-lg">
         <div className="container max-w-screen-2xl mx-auto flex justify-between px-8 py-12">
-          <div className=" max-w-80">
+          <div className="basis-80">
             <h1 className="text-4xl font-semibold text-white mb-8">
               tekstilim
             </h1>
@@ -75,7 +75,7 @@ function App() {
           </div>
 
           {/* subscriction */}
-          <div className="max-w-96">
+          <div className="basis-96">
             <h3 className="text-white mb-4">Subscribe </h3>
 
             <p className="mb-4">
@@ -92,10 +92,12 @@ function App() {
           </div>
         </div>
 
-        <div className="py-4 px-8 border-t border-neutral-400/35">
-          <p className="text-[#8a898c]">
-            © 2023 Tekstilim. All Rights Reserved
-          </p>
+        <div className="max-w-screen-2xl mx-auto">
+          <div className="py-6 px-8 border-t border-neutral-400/35">
+            <p className="text-[#8a898c]">
+              © 2023 Tekstilim. All Rights Reserved
+            </p>
+          </div>
         </div>
       </footer>
     </div>
