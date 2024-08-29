@@ -58,13 +58,6 @@ const bestProducts = [
     price: 199.99,
     oldPrice: 299.99,
   },
-  {
-    id: 9,
-    title: "IKEA",
-    model: "Renkli Çift Kişilik Nevresim Takımı",
-    price: 179.99,
-    oldPrice: 229.99,
-  },
 ];
 
 function BestSellers() {
