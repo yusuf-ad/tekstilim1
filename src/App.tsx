@@ -1,4 +1,5 @@
 import BestSellers from "./components/BestSellers";
+import CustomerTestimonials from "./components/CustomerTestimonials";
 import DealsOfMonth from "./components/DealsOfMonth";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -19,6 +20,8 @@ function App() {
         <BestSellers />
 
         <DealsOfMonth />
+
+        <CustomerTestimonials />
 
         <InstagramStories />
       </main>
