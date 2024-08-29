@@ -1,3 +1,5 @@
+import Button from "./Button";
+
 function Hero() {
   return (
     <div className="relative flex min-h-[60vh] items-center bg-[url('/hero-img.webp')] bg-cover bg-center">
@@ -22,10 +24,10 @@ function Hero() {
             inceleyin.
           </p>
 
-          <button className="flex items-center gap-4 rounded-xl bg-white-500 px-8 py-3 font-medium text-dark-500">
-            Şimdi Alışveriş Yap
-            <i className="fa-solid fa-arrow-right mt-1"></i>
-          </button>
+          <Button className="flex items-center gap-4 bg-white-500 font-medium">
+            <p className="text-dark-500">Şimdi Alışveriş Yap</p>
+            <i className="fa-solid fa-arrow-right mt-1 text-dark-500"></i>
+          </Button>
         </div>
       </div>
     </div>

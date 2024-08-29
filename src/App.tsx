@@ -6,7 +6,7 @@ import HomeCategories from "./components/HomeCategories";
 
 function App() {
   return (
-    <div className="font-jost flex min-h-screen flex-col selection:bg-tertiary-100 selection:text-dark-500">
+    <div className="flex min-h-screen flex-col font-jost selection:bg-tertiary-100 selection:text-dark-500">
       <Header />
 
       <main className="flex-1">
@@ -15,6 +15,8 @@ function App() {
         <HomeCategories />
 
         <BestSellers />
+
+        {/* deals of the month */}
       </main>
 
       <Footer />

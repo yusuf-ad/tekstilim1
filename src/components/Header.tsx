@@ -1,3 +1,5 @@
+import Button from "./Button";
+
 const navList = [
   { title: "Home", link: "#" },
   { title: "Shop", link: "#" },
@@ -38,9 +40,7 @@ function Header() {
           </button>
         </div>
 
-        <button className="rounded-xl bg-dark-500 px-8 py-3 text-white-500">
-          Login
-        </button>
+        <Button>Login</Button>
       </div>
     </header>
   );
