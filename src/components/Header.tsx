@@ -15,7 +15,7 @@ function Header() {
       </div>
       {/* navbar */}
       <nav>
-        <ul className="flex items-center gap-4">
+        <ul className="hidden items-center gap-4 lg:flex">
           {navList.map((item) => (
             <li className="font-semibold text-primary-900">
               <a href={item.link}>{item.title}</a>
@@ -26,7 +26,7 @@ function Header() {
       {/* button */}
 
       <div className="flex items-center gap-8">
-        <div className="flex gap-8">
+        <div className="hidden gap-8 lg:flex">
           <button className="text-2xl text-primary-600">
             <i className="fa-solid fa-magnifying-glass"></i>
           </button>
