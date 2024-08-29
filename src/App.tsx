@@ -5,7 +5,7 @@ import HomeCategories from "./components/HomeCategories";
 
 function App() {
   return (
-    <div className="flex min-h-screen flex-col selection:bg-tertiary-100 selection:text-dark-500">
+    <div className="font-jost flex min-h-screen flex-col selection:bg-tertiary-100 selection:text-dark-500">
       <Header />
 
       <main className="flex-1">
@@ -32,8 +32,9 @@ function App() {
                 koleksiyonumuzu inceleyin.
               </p>
 
-              <button className="rounded-xl bg-white-500 px-8 py-3 font-medium text-dark-500">
+              <button className="flex items-center gap-4 rounded-xl bg-white-500 px-8 py-3 font-medium text-dark-500">
                 Şimdi Alışveriş Yap
+                <i className="fa-solid fa-arrow-right mt-1"></i>
               </button>
             </div>
           </div>
