@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import HomeCategories from "./components/HomeCategories";
+import InstagramStories from "./components/InstagramStories";
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
         <BestSellers />
 
         <DealsOfMonth />
+
+        <InstagramStories />
       </main>
 
       <Footer />
