@@ -39,14 +39,14 @@ function HomeCategories() {
   return (
     <div className="container mx-auto max-w-screen-2xl px-8 py-12">
       <div className="mb-12 flex items-center justify-between">
-        <h2 className="text-3xl font-medium">Popüler Kategoriler</h2>
+        <h2 className="text-lg font-medium sm:text-3xl">Popüler Kategoriler</h2>
 
         <div className="flex gap-4">
-          <button className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary-10 text-primary-90">
+          <button className="flex h-10 w-10 items-center justify-center rounded-xl bg-primary-10 text-primary-90 sm:h-12 sm:w-12">
             <i className="fa-solid fa-arrow-left"></i>
           </button>
 
-          <button className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary-800 text-white-5">
+          <button className="flex h-10 w-10 items-center justify-center rounded-xl bg-primary-800 text-white-5 sm:h-12 sm:w-12">
             <i className="fa-solid fa-arrow-right"></i>
           </button>
         </div>
