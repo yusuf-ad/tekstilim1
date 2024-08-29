@@ -1,4 +1,5 @@
 import BestSellers from "./components/BestSellers";
+import DealsOfMonth from "./components/DealsOfMonth";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -16,7 +17,7 @@ function App() {
 
         <BestSellers />
 
-        {/* deals of the month */}
+        <DealsOfMonth />
       </main>
 
       <Footer />

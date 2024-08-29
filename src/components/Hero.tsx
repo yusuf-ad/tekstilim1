@@ -2,7 +2,7 @@ import Button from "./Button";
 
 function Hero() {
   return (
-    <div className="relative flex min-h-[60vh] items-center bg-[url('/hero-img.webp')] bg-cover bg-center">
+    <div className="relative mb-8 flex min-h-[60vh] items-center bg-[url('/hero-img.webp')] bg-cover bg-center">
       <div className="absolute inset-0 bg-black opacity-65"></div>
       <div className="item container relative mx-auto max-w-screen-2xl px-8">
         <div className="max-w-2xl p-8 text-white-500">

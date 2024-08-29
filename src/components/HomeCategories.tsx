@@ -7,7 +7,7 @@ const categoriesList = [
 
 function CategoryCard({ title, image }: { title: string; image: string }) {
   return (
-    <div className="relative col-span-1 aspect-[9/12] overflow-hidden bg-gray-200">
+    <div className="relative col-span-1 mb-8 aspect-[9/12] overflow-hidden bg-gray-200">
       <div className="absolute bottom-0 left-0 z-50 w-full px-4 pb-4">
         <div className="rounded-lg bg-white-500 p-4 text-center font-bold text-dark-90">
           {title}
