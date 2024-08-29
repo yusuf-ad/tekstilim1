@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import HomeCategories from "./components/HomeCategories";
 import InstagramStories from "./components/InstagramStories";
+import SiteBenefits from "./components/SiteBenefits";
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
         <CustomerTestimonials />
 
         <InstagramStories />
+
+        <SiteBenefits />
       </main>
 
       <Footer />
