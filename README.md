@@ -2,6 +2,16 @@
 
 ![code-setup](./src/assets/color-setup.png)
 
+Header da
+
+linkler için text-primary-400 kullandım hover için text-primary-900
+iconlar için text-primary-400 kullandım hover için text-primary-900
+
+megamenu de
+
+başlıklar için text-primary-900
+linkler için text-primary-500 hover:text-gray-950
+
 ## Primary
 
 - 100: #A3A3A3

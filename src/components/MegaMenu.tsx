@@ -40,13 +40,16 @@ function MenuList({
   list: { id: number; title: string }[];
 }) {
   return (
-    <div className="ml-8 w-44 border-l border-primary-80/15 pl-8 first:ml-0 first:border-l-0 first:border-red-400 first:pl-0">
+    <div className="ml-8 w-44 border-l border-primary-80/15 pl-8 first:ml-0 first:border-l-0 first:pl-0">
       <h3 className="mb-2 font-bold text-primary-900">{title} </h3>
 
       <ul>
         {list.map((item) => (
           <li key={item.id} className="py-1">
-            <a href="#" className="text-primary-500 hover:text-gray-950">
+            <a
+              href="#"
+              className="text-primary-500 underline-offset-4 hover:text-gray-950 hover:underline"
+            >
               {item.title}
             </a>
           </li>

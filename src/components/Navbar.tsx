@@ -29,7 +29,7 @@ function Navbar() {
         {Navbardata.map((data) => (
           <li className="group relative p-2 py-4" key={data.id}>
             <a
-              className="flex items-center text-lg font-semibold text-primary-400 hover:text-primary-900"
+              className="flex items-center font-semibold text-primary-400 hover:text-primary-900"
               href={data.link}
             >
               {data.title}
