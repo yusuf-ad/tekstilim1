@@ -2,7 +2,7 @@ const instagramStories = ["/man.png", "/man.png", "/man.png", "/man.png"];
 
 function InstagramStories() {
   return (
-    <div className="container mx-auto max-w-screen-2xl px-8 py-12">
+    <div className="custom-container px-8 py-12">
       <h2 className="mb-12 text-center text-lg font-medium sm:text-3xl">
         Instagram Hikayelerimiz
       </h2>

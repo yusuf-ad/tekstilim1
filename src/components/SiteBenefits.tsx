@@ -23,7 +23,7 @@ const benefits = [
 
 function SiteBenefits() {
   return (
-    <div className="container mx-auto mb-12 max-w-screen-2xl px-8 py-12">
+    <div className="custom-container mb-12 px-8 py-12">
       <div className="grid grid-cols-2 gap-8 lg:grid-cols-4">
         {benefits.map((benefit) => (
           <div key={benefit.title}>

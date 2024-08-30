@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 
 function Header() {
   return (
-    <header className="container mx-auto flex max-w-screen-2xl items-center justify-between px-8 py-6">
+    <header className="custom-container flex items-center justify-between px-8 py-6">
       <div>
         <a href="#">
           <h1 className="text-4xl font-semibold">tekstilim</h1>

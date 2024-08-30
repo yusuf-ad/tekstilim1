@@ -37,7 +37,7 @@ function CategoryCard({ title, image }: { title: string; image: string }) {
 
 function HomeCategories() {
   return (
-    <div className="container mx-auto max-w-screen-2xl px-8 py-12">
+    <div className="custom-container px-8 py-12">
       <div className="mb-12 flex items-center justify-between">
         <h2 className="text-lg font-medium sm:text-3xl">Popüler Kategoriler</h2>
 

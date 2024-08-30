@@ -21,7 +21,7 @@ const serviceList = [
 function Footer() {
   return (
     <footer className="bg-primary-800 text-lg font-semibold text-primary-100">
-      <div className="container mx-auto flex max-w-screen-2xl flex-col justify-between gap-12 px-8 py-12 md:flex-row">
+      <div className="custom-container flex flex-col justify-between gap-12 px-8 py-12 md:flex-row">
         <div className="md:basis-72">
           <h1 className="mb-8 text-4xl font-semibold text-white-500">
             tekstilim
@@ -41,7 +41,7 @@ function Footer() {
         </div>
       </div>
 
-      <div className="mx-auto max-w-screen-2xl">
+      <div className="custom-container">
         <div className="border-t border-primary-80 px-8 py-6">
           <p className="text-sm text-primary-100">
             © 2024 Tekstilim. All Rights Reserved
